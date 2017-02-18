@@ -1,5 +1,6 @@
 ---
 layout: null
+title: Home
 ---
 {% for item in site.pages %}
 {% unless item.url == "page.url" %}
