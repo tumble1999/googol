@@ -25,3 +25,17 @@ gems:
    - jekyll-feed
    - jekyll-seo-tag
    
+# Build settings
+markdown: kramdown
+# theme: minima
+excludes:
+  - lib
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - bower.json
+  - "*.sh"
+  - README.md
+  - gulffile.js
+  - package.json
+  - vendor
