@@ -1,4 +1,4 @@
 ---
 layout: null
 ---
-1{% for i in (1..2)%}0{% endfor %}
+{% include number.html power=5 %}
