@@ -2,5 +2,8 @@
 layout: googol
 title: Googol
 ---
-{% capture googol %}{% include number.html power=100 %}{% endcapture %}
-{{ googol }}
+<p class=googol></p>
+<script>
+  
+</script>
+
