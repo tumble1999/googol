@@ -1,4 +1,4 @@
 ---
-layout: null
+layout: googol
 ---
-{% include number.html power=5 %}
+{% include number.html power=100 %}
