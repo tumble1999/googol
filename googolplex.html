@@ -4,5 +4,15 @@ title: Googolplex
 ---
 <p class=googol></p>
 <script>
-  
+  var googol = Number(100);
+  var googolplex = Number(googol);
+  $('.googol').append(googolplex);
+
+  function Number(var power) {
+  var output = 1;
+  for (i = 0; i < power; i++) { 
+      output = output + "0";
+  }
+  return output;
+  }
 </script>
